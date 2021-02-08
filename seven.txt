@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form tag</title>
+</head>
+<body>
+
+	<form method="" action="">
+		<fieldset>
+
+			<table>	
+
+
+<tr>
+					<td>Profile Picture:</td></tr>
+					<tr>
+					<td>
+						<input type="file" name="image" value="">
+					</td>
+				</tr>
+				<tr><td><input type="submit" name="button" value="Submit"></td></tr>
+				<tr>
+				<nav>
+  				<ul>
+				<td>
+   				 <li><a href="file:///C:/Users/hordo/Downloads/LAB-2%20[HTML-FORM].pdf">Next Page</a></li> <!-- Add a link to another website. -->
+				</td>
+  				</ul>
+				</nav>
+				</tr>
+				<tr>
+
+
+</table>
+			
+		</fieldset>
+
+	</form>
+</body>
+</html>

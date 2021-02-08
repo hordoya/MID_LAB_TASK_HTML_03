@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form tag</title>
+</head>
+<body>
+
+	<form method="" action="">
+		<fieldset>
+			//<legend >Registration</legend>
+
+			<table>
+				<tr>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>Name</td>
+				</tr>
+					<tr><td><input type="text" name="Name" value="" placeholder="Name"></td></tr>
+				<tr><td><input type="submit" name="button" value="Submit"></td></tr>
+				</tr>
+			
+				<tr>
+					<td>Gender:</td>
+					</tr>
+					<tr>
+					<td><input type="radio" name="gender" value="male"> Male
+						<input type="radio" name="gender" value="female"> Female
+						<input type="radio" name="gender" value="other"> Other 
+					</td>
+				</tr>
+				<tr><td><input type="submit" name="button" value="Submit"></td></tr>
+				<tr>
+				<nav>
+  				<ul>
+				<td>
+				<li><a href="file:///C:/Users/hordo/OneDrive/Desktop/assesment/second.html">previous Page</a></li> <!-- Add a link to another website. -->
+   				 <li><a href="file:///C:/Users/hordo/OneDrive/Desktop/assesment/fourth.html">Next Page</a></li> <!-- Add a link to another website. -->
+				</td>
+  				</ul>
+				</nav>
+				</tr>
+
+				<tr>
+					<td>Degree:</td>
+				</tr>
+				<tr>
+					<td><input type="radio" name="Degree" value="Ssc"> ssc
+						<input type="radio" name="Degree" value="Hsc"> Hsc
+						<input type="radio" name="Degree" value="BSc"> BSc
+						<input type="radio" name="Degree" value="MSc"> MSc 
+					</td>
+				</tr>
+				<tr><td><input type="submit" name="button" value="Submit"></td></tr>
+				<tr>
+				<nav>
+  				<ul>
+				<td>
+   				 <li><a href="file:///C:/Users/hordo/Downloads/LAB-2%20[HTML-FORM].pdf">Next Page</a></li> <!-- Add a link to another website. -->
+				</td>
+  				</ul>
+				</nav>
+				</tr>
+
+				<tr>
+				<td>Blood Group</td>
+				</tr>
+				<tr>
+				<td>
+				<select name="Blood Group" >
+				<option value="A+" selected>A+</option><option value="A-">A-</option>
+				<option value="B+">B+</option><option value="B-">B-</option>
+				<option value="O+">O+</option><option value="O-">O-</option>
+				<option value="AB+">AB+</option><option value="AB-">AB-</option>
+				</select>
+				</td>
+				</tr>
+				<tr><td><input type="submit" name="button" value="Submit"></td></tr>
+				<tr>
+				<nav>
+  				<ul>
+				<td>
+   				 <li><a href="file:///C:/Users/hordo/Downloads/LAB-2%20[HTML-FORM].pdf">Next Page</a></li> <!-- Add a link to another website. -->
+				</td>
+  				</ul>
+				</nav>
+				</tr>
+
+
+				<tr>
+				<td>Date of Birth</td></tr>
+				<tr>
+				<td>
+				<input type="date" data-date-inline-picker="true" />
+				</td>
+				</tr>
+				<tr><td><input type="submit" name="button" value="Submit"></td></tr>
+				<tr>
+				<nav>
+  				<ul>
+				<td>
+   				 <li><a href="file:///C:/Users/hordo/Downloads/LAB-2%20[HTML-FORM].pdf">Next Page</a></li> <!-- Add a link to another website. -->
+				</td>
+  				</ul>
+				</nav>
+				</tr>				
+
+					<tr>
+					<td>File:</td></tr>
+					<tr>
+					<td>
+						<input type="file" name="image" value="">
+					</td>
+				</tr>
+				<tr><td><input type="submit" name="button" value="Submit"></td></tr>
+				<tr>
+				<nav>
+  				<ul>
+				<td>
+   				 <li><a href="file:///C:/Users/hordo/Downloads/LAB-2%20[HTML-FORM].pdf">Next Page</a></li> <!-- Add a link to another website. -->
+				</td>
+  				</ul>
+				</nav>
+				</tr>
+				<tr>
+					<td>Add:</td>
+					<td>
+						<textarea ></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type="button" name="button" value="Click">
+						<input type="submit" name="button" value="Submit">
+					</td>
+				</tr>
+			</table>
+			
+		</fieldset>
+
+	</form>
+</body>
+</html>
